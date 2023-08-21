@@ -61,7 +61,7 @@ app.get('/weather', (req, res) => {
      
     console.log(req.query.address)
     res.send({
-        weatherData: fdata
+        weatherData: fdata.temperature
         })
     })
     
